@@ -1,0 +1,17 @@
+.btn {
+  @include base-text;
+  display: inline-block;
+  padding: 6px 14px 4px 14px;
+  border-radius: 15px;
+  box-shadow: 0 4px 3px -1px $shadow-color;
+  transition: box-shadow 0.2s;
+}
+
+.btn--primary {
+  background-color: $primary-btn;
+}
+
+.btn--primary:hover {
+  box-shadow: 0 4px 3px 1px $shadow-color;
+  transition: box-shadow 0.2s;
+}

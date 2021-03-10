@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: $tertiary;
+  border-radius: 70px;
+  box-shadow: -6px -2px 0 0 $secondary;
+}
+
+.logo__text {
+  margin: auto;
+  font-weight: bold;
+  font-family: $font-serif;
+}
+
+.logo__text::after {
+  content: "</li>";
+}

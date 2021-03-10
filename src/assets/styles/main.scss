@@ -1,0 +1,54 @@
+/**
+ * Import variables
+ */
+
+@import "variables/font-variables";
+@import "variables/color-variables";
+@import "variables/mixins";
+@import "variables/screen-size-variables";
+
+/**
+ * Import npm dependencies
+ * see: https://en.parceljs.org/module_resolution.html
+ * see commented examples below
+ */
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+
+/**
+ * Import common rules
+ * Group by relationship
+ */
+
+@import "common/remove-defaults";
+@import "common/sections";
+@import "common/headers";
+@import "common/text";
+@import "common/links";
+@import "common/grids";
+@import "common/html";
+@import "common/icons";
+
+/**
+* Import specific reusable component styles
+* A partial to be used for each component
+*/
+@import "components/navigations";
+@import "components/logo";
+@import "components/main-navigation";
+@import "components/card";
+@import "components/buttons";
+
+/**
+* Import layouts
+* A partials for each section that needs specific styling
+*/
+
+@import "sections-layouts/header";
+@import "sections-layouts/experience";
+@import "sections-layouts/footer";
+
+/**
+ * Do NOT include anything else in this file!
+ */

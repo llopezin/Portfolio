@@ -1,0 +1,54 @@
+.card {
+  margin: 4px 5px 25px;
+  padding: 30px 25px 15px 25px;
+  background-color: $tertiary;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px $shadow-color;
+}
+
+.card__image-wrap {
+  max-width: 40%;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__text-sprite {
+  @include sub-header;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card__text-content {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.card-list {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.card-list__item {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 23px;
+}
+
+.card-list__item::before {
+  position: absolute;
+  top: 4px;
+  left: -24px;
+  width: 18px;
+  height: 10px;
+  background-color: $primary;
+  content: " ";
+}
+
+.card__actions {
+  margin: 22px 0 5px;
+  text-align: end;
+}

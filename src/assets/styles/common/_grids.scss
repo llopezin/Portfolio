@@ -1,0 +1,17 @@
+@media (min-width: $big-min) {
+  /* do not use this class outside of a big screen query */
+  .big-screen-grid {
+    display: grid;
+  }
+
+  .big-screen-grid--three-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .big-screen-grid--two-columns {
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    column-gap: 10px;
+  }
+}

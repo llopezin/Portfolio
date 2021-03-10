@@ -1,0 +1,32 @@
+.experience__time-line {
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 0;
+  border-left: solid 5px $primary;
+}
+
+.experience-item {
+  position: relative;
+  margin: 20px 20px 35px;
+}
+
+.experience-item__header::before {
+  position: absolute;
+  top: -14px;
+  left: -32px;
+  color: $secondary;
+  font-size: 30px;
+  content: "\25CF";
+}
+
+.experience-item__subheader {
+  @include sub-header;
+  display: block;
+  margin: 10px 10px 8px;
+}
+
+.experience-item__dates {
+  display: block;
+  margin: 5px 10px 10px;
+  font-style: italic;
+}

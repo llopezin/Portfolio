@@ -1,0 +1,10 @@
+@mixin base-text {
+  color: $text-primary;
+  font-size: $font-size-text;
+  font-family: $font-sans-serif;
+}
+
+@mixin sub-header {
+  font-size: $font-size-sub-header;
+  font-family: $font-serif;
+}

@@ -1,0 +1,9 @@
+@use "sass:color";
+
+$text-primary: #3a3535;
+$primary: #bbfced;
+$secondary: #c29ffa;
+$tertiary: #fff;
+$primary-btn: darken($primary, 5%);
+$shadow-color: #7a7575;
+$highlights-primary: color.scale($primary, $lightness: 50%);

@@ -1,0 +1,30 @@
+p,
+span,
+li {
+  @include base-text;
+}
+
+p {
+  line-height: 23px;
+}
+
+.single-line {
+  display: block;
+}
+
+.text-highlight {
+  position: relative;
+}
+
+.text-highlight--primary {
+  background-color: $highlights-primary;
+}
+
+.sr-only {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

@@ -1,0 +1,58 @@
+section,
+header,
+footer {
+  min-height: 40vh;
+  padding-top: 20px;
+}
+
+section {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.section-content__paragraph {
+  padding: 10px;
+}
+
+.section--primary {
+  background-color: $primary;
+}
+
+.section--secondary {
+  background-color: $secondary;
+}
+
+.section-scroll-anchor {
+  position: absolute;
+  top: -30px;
+}
+
+@media (min-width: $very-small) and (max-width: $small) {
+  .section-wrap {
+    max-width: 650px;
+    margin: auto;
+  }
+
+  .section-content {
+    padding: 20px;
+  }
+}
+
+@media (min-width: $big-min) {
+  header {
+    min-height: 45vh;
+  }
+
+  .section-wrap {
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .section-content {
+    padding: 20px 40px 20px;
+  }
+
+  .section-scroll-anchor {
+    top: 0;
+  }
+}

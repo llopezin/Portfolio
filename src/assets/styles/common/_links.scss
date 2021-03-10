@@ -1,0 +1,28 @@
+a {
+  @include base-text;
+  text-decoration: none;
+}
+
+.link--secondary {
+  position: relative;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.link--secondary::after {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background-color: $secondary;
+  transition: height 0.3s;
+  content: " ";
+}
+
+.link--secondary:hover::after {
+  height: 8px;
+  transition: height 0.3s;
+  content: " ";
+}

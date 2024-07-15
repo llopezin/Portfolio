@@ -12,7 +12,6 @@ module.exports = {
     //Sheet
     "max-empty-lines": 5,
     "max-line-length": 80,
-    indentation: 2,
 
     //Property syntax
     "value-keyword-case": "lower",
@@ -33,7 +32,7 @@ module.exports = {
     //Specificity
     "declaration-no-important": true,
     "selector-nested-pattern": "^&",
-    "selector-max-specificity": "0,2,1",
+    "selector-max-specificity": "0,3,1",
     "selector-max-attribute": 1,
     "selector-max-universal": 0,
     "selector-max-type": 1,

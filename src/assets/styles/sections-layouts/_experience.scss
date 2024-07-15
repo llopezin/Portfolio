@@ -10,6 +10,15 @@
   margin: 20px 20px 35px;
 }
 
+.experience-item.animate {
+  opacity: 0;
+}
+
+.experience-item.animate.intersected {
+  opacity: 1;
+  animation: appearFormRight 0.5s ease-in-out;
+}
+
 .experience-item__header::before {
   position: absolute;
   top: -14px;

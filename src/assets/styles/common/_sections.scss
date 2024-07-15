@@ -14,6 +14,15 @@ section {
   padding: 10px;
 }
 
+.section-content__paragraph.animate {
+  opacity: 0;
+}
+
+.section-content__paragraph.animate.intersected {
+  opacity: 1;
+  animation: appearFormBottom 0.5s ease-in-out;
+}
+
 .section--primary {
   background-color: $primary;
 }

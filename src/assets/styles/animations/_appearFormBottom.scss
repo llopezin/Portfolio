@@ -1,0 +1,11 @@
+@keyframes appearFormBottom {
+    0% {
+        transform: translateY(15%) scale3d(0.8, 0.8, 0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0) scale3d(1, 1, 1);
+        opacity: 1;
+    }
+}

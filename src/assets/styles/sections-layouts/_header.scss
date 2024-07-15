@@ -56,4 +56,13 @@ header {
   .header__presentation {
     text-align: left;
   }
+
+  .header__presentation.animate {
+    opacity: 0;
+  }
+
+  .header__presentation.animate.intersected {
+    opacity: 1;
+    animation: appearFromRight 0.5s ease-in-out;
+  }
 }

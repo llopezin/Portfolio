@@ -31,6 +31,14 @@
 @import "common/icons";
 
 /**
+* Import animations
+*/
+
+@import "animations/appearFormBottom";
+@import "animations/appearFormRight";
+@import "animations/appearFormLeft";
+
+/**
 * Import specific reusable component styles
 * A partial to be used for each component
 */

@@ -14,4 +14,13 @@
     align-items: center;
     column-gap: 10px;
   }
+
+  .big-screen-grid.animate {
+    opacity: 0;
+  }
+
+  .big-screen-grid.animate.intersected {
+    opacity: 1;
+    animation: appearFormRight 0.5s ease-in-out;
+  }
 }

@@ -10,6 +10,8 @@
     href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
   <title>Laura Infantes</title>
+  <script type="text/javascript" src="assets/scripts/main.js"></script>
+  <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
 </head>
 
 <body>
@@ -29,7 +31,7 @@
         </ul>
       </nav>
 
-      <div class="[ big-screen-grid  big-screen-grid--two-columns ]">
+      <div class="[ big-screen-grid  big-screen-grid--two-columns animate ]">
 
         <div class="[ header__logo logo ]">
           <span class="[ header-logo__text  logo__text ]">
@@ -89,19 +91,20 @@
         <h2 class="[ header-highlighted header-highlighted--secondary ]">About me</h2>
         <div class="[ section-content ]">
 
-          <p class="[ section-content__paragraph ]"><span class="[ text-highlight text-highlight--primary ]">I am a
+          <p class="[ section-content__paragraph animate ]"><span class="[ text-highlight text-highlight--primary ]">I
+              am a
               Front End developer at HYD,</span> a digital agency based in London. Here I build the front end to all
             sorts of web
             applications using Next.js and React, and I connect them to diverse backends stacks which vary from project
             to project. </p>
 
-          <p class="[ section-content__paragraph ]">
+          <p class="[ section-content__paragraph animate ]">
             My <span class="[ text-highlight text-highlight--primary ]"></span>full-stack development master's
             program</span> at UOC involved becoming proficient in AngularJS for the front
             end as well as different backend solutions, from CMS to PHP and Node.js based frameworks.
           </p>
 
-          <p class="[ section-content__paragraph ]">
+          <p class="[ section-content__paragraph animate ]">
             While working on my masters I started my career in <span
               class="[ text-highlight text-highlight--primary ]">conversion rate optimization (CRO) development</span>.
             This role provided me with a unique
@@ -109,17 +112,19 @@
             optimization of site speed, which I audited for some of our clients.
           </p>
 
-          <p class="[ section-content__paragraph ]"><span
+          <p class="[ section-content__paragraph animate ]"><span
               class="[ text-highlight text-highlight--primary ]">Accessibility</span> has been a passion since I started
             coding.
             I enjoy staying
             updated on the latest conventions, researching and implementing them in my day to day work.
           </p>
 
-          <p class="[ section-content__paragraph ]">What I love the most about being a developer is the fact that there
+          <p class="[ section-content__paragraph animate ]">What I love the most about being a developer is the fact
+            that there
             is always a new challenge around the corner, always something new to learn, and a big community of equially
             enthusiastic people to share your learning experience with.</p>
-          <p class="[ section-content__paragraph ]">On my free time I like to relax listening to music, playing bass
+          <p class="[ section-content__paragraph animate ]">On my free time I like to relax listening to music, playing
+            bass
             guitar,
             and climbing in the bouldering gym.</p>
         </div>
@@ -133,12 +138,49 @@
         <h2 class="[ header-highlighted header-highlighted--primary ]">Projects</h2>
         <div class="[ section-content ]">
 
+          <div class="[ card animate ]">
+            <h3>Bucle.app, a UX tooling platform</h3>
+            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">Angular | Nest.js | MongoDB |
+                Chart.js | TailwindCSS
+              </span>
+              <p>A platform to help UX researchers: it allows to create surveis, tree tests and card sorts. In addition,
+                generates links to share with participants, collects their answers and allows for the researcher to
+                visualize the data on complex charts and tables.
+              </p>
+            </div>
+            <div class="[ card__actions ]">
+              <a class="[ link--secondary ]" href="hhttps://github.com/llopezin/ux-tooling-app-api">View API code
+                <span class="[ sr-only ]">View Bucle.app api's code</span></a>
+              <a class="[ btn btn--primary ]" href="https://github.com/llopezin/ux-tooling-app">View FE code <span
+                  class="[ sr-only ]">View Bucle.app app's code</span></a>
+            </div>
+          </div>
 
-          <div class="[ card ]">
+
+          <div class="[ card animate ]">
+            <h3>Snippets app, stores your code snippets</h3>
+            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">React | RTK-Redux | Styled
+                Components | MongoDB | Express | JWT | Ethereal
+              </span>
+              <p>The front end is built with React, using RTK from redux toolkit, it allows users to create, update,
+                delete and view
+                colour highlighted code snippets in several languajes. API built with plain express, uses JWT for
+                authentication, MongoDB for data storage adn Ethereal for
+                user email confirmation.
+              </p>
+            </div>
+            <div class="[ card__actions ]">
+              <a class="[ btn btn--primary ]" href="https://github.com/Laura-Infantes-HYD/snippets">View code<span
+                  class="[ sr-only ]">View Snippets app's code</span></a>
+            </div>
+          </div>
+
+
+          <div class="[ card animate ]">
             <h3>Espacios de vida</h3>
             <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">React | Gatsby | Netlify</span>
               <p>I built this site for Natalia Ferrus, an atypical real estate agent who helps people find their dream
-                homes in Spain. This static site is built on Gatsby and hosted on Netlify</p>
+                homes in Spain. This static site is built on Gatsby</p>
             </div>
             <div class="[ card__actions ]">
               <a class="[ btn btn--primary ]" href="https://espacios-de-vida.com">Visit <span class="[ sr-only ]">espais
@@ -146,19 +188,20 @@
             </div>
           </div>
 
-          <div class="[ card ]">
+          <div class="[ card animate ]">
             <h3>Exchange.ly</h3>
             <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">Angular | Redux | API</span>
-              <p>This app allows users to compare the latests currency rates as well as visualizing historic rates data
-                fetched form exchangeratesapi.io.</p>
+              <p>This app allows users to filter and compare the latests currency rates as well as visualizing historic
+                rates data
+                fetched form exchangeratesapi.io through complex charts built using chart.js</p>
             </div>
             <div class="[ card__actions ]">
-              <a class="[ link--secondary ]" href="https://github.com/llopezin/exchange.ly/">View code <span
+              <a class="[ btn btn--primary ]" href="https://github.com/llopezin/exchange.ly/">View code <span
                   class="[ sr-only ]">for Exchange.ly</span></a>
             </div>
           </div>
 
-          <div class="[ card ]">
+          <div class="[ card animate ]">
             <h3>Fest-a-casa</h3>
             <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">HTML | SASS | Bootstrap</span>
               <p>One of the things I have missed the most during lockdown is live music. I have built this streaming
@@ -166,32 +209,13 @@
                 at a local band's gig feeling.</p>
             </div>
             <div class="[ card__actions ]">
-              <a class="[ link--secondary ]" href="https://github.com/llopezin/music-festival-site">View code <span
+              <a class="[ btn btn--primary ]" href="https://github.com/llopezin/music-festival-site">View code <span
                   class="[ sr-only ]">for fest-a-casa's
                   site</span></a>
-              <a class="[ btn btn--primary ]" href="https://fest-a-casa.netlify.app/">Visit <span
-                  class="[ sr-only ]">fest-a-casa's</span>site</a>
             </div>
           </div>
 
-          <div class="[ card ]">
-            <h3>Women In Beat Poetry</h3>
-            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">HTML | SASS | JavaScript |
-                API</span>
-              <p>A site to educate on two of the most the amazing women writers from the beat generation. This site
-                collects data from Google books API.
-              </p>
-            </div>
-            <div class="[ card__actions ]">
-              <a class="[ link--secondary ]" href="https://github.com/llopezin/women-in-beat-poetry">View code <span
-                  class="[ sr-only ]">for Women In Beat Poetry
-                  project</span></a>
-              <a class="[ btn btn--primary ]" href="https://womeninbeatpoetry.netlify.app/">Visit <span
-                  class="[ sr-only ]">women in beat poetry</span>site</a>
-            </div>
-          </div>
-
-          <div class="[ card ]">
+          <div class="[ card animate ]">
             <h3>Laravel Articles API</h3>
             <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">PHP | Laravel | API</span>
               <p>A REST public API built on Laravel, using Laravel's Factoties to populate and SQL database, it allows
@@ -199,25 +223,12 @@
               </p>
             </div>
             <div class="[ card__actions ]">
-              <a class="[ link--secondary ]" href="https://github.com/llopezin/laravel-news-API">View code <span
+              <a class="[ btn btn--primary ]" href="https://github.com/llopezin/laravel-news-API">View code <span
                   class="[ sr-only ]">for laravel articles API
                   project</span></a>
             </div>
           </div>
 
-          <div class="[ card ]">
-            <h3>Touristic Activities Application</h3>
-            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">Angular | NgRx | Redux</span>
-              <p>I really enjoyed applying the redux pattern to a bigger size application on Angular. Includes reactive
-                forms, http calls, state hadling via redux. If you are a fellow code person, feel free to peek.
-              </p>
-            </div>
-            <div class="[ card__actions ]">
-              <a class="[ link--secondary ]" href="https://github.com/llopezin/angular-tourism-app">View code <span
-                  class="[ sr-only ]">Touristic Activities Application
-                  project</span></a>
-            </div>
-          </div>
 
 
         </div>
@@ -230,13 +241,31 @@
       <div class="[ section-wrap ]">
         <div class="[ section-scroll-anchor ]" id="experience"></div>
         <h2 class="[ header-highlighted header-highlighted--secondary ]">Experience</h2>
-        <div class="[ section-content ] [ experience__time-line ]">
+        <div class="[ section-content ] [ experience__time-line animate ]">
 
-          <div class="[ experience-item ]">
+
+          <div class="[ experience-item animate ]">
+            <h3 class="[ experience-item__header ]">HYD agency</h3>
+            <span class="[ experience-item__subheader ]">Front End Developer</span>
+            <span class="[ experience-item__dates ]">May 2021 - Present</span>
+            <p class="[ section-content__paragraph ]">
+              Creating responsive, wcag compliant and cross-browser compatible web applications using React and Next.js.
+              Building scalable services to consume data form REST and GraphQL APIs by implementing effective state
+              management solutions. Integrating third party products for payments, google services etc.
+            </p>
+
+            <p class="[ section-content__paragraph ]">
+              Writing and maintaining documentation, code reviewing. Liaising with clients and project managers to
+              provide support and technical perspective on viability and
+              time estimates
+            </p>
+          </div>
+
+          <div class="[ experience-item animate ]">
             <h3 class="[ experience-item__header ]">Dentsu Intenational</h3>
             <span class="[ experience-item__subheader ]">CRO Front End Developer
               Assistant</span>
-            <span class="[ experience-item__dates ]">April 2020 - Present</span>
+            <span class="[ experience-item__dates ]">April 2020 - May 2021</span>
             <p class="[ section-content__paragraph ]">
               Conducting A/B and multivariate test for a range of UK and International clients, using platforms such as
               VWO, Monetate or Goolgle optimize. Building tests based on XD prototypes from our design team and test
@@ -244,18 +273,6 @@
               from our strategy team. Adding custom GA and Hotjar tracking events to collect test data for our insights
               team.
             </p>
-          </div>
-
-          <div class="[ experience-item ]">
-            <h3 class="[ experience-item__header ]">Bright Horizons</h3>
-            <span class="[ experience-item__subheader ]">Nursery Nurse</span>
-            <span class="[ experience-item__dates ]">January 2019 - April 2020</span>
-          </div>
-
-          <div class="[ experience-item ]">
-            <h3 class="[ experience-item__header ]">Bright Horizons</h3>
-            <span class="[ experience-item__subheader ]">Nursery Assistant</span>
-            <span class="[ experience-item__dates ]">April 2018 - December 2018</span>
           </div>
 
         </div>
@@ -271,7 +288,7 @@
 
         <div class="[ section-content ] [ big-screen-grid big-screen-grid--three-columns ]">
 
-          <div class="[ card ]">
+          <div class="[ card animate ]">
             <h3>Languages & Tools</h3>
             <ul class="[ card__text-content card-list ]">
               <li class="card-list__item">HTML, CSS, Sass</li>
@@ -283,7 +300,7 @@
             </ul>
           </div>
 
-          <div class="[ card ]">
+          <div class="[ card animate ]">
             <h3>Optimisation & Performance</h3>
             <ul class="[ card__text-content card-list ]">
               <li class="card-list__item">VWO, Monetate, Google Optimize, Adobe Target</li>
@@ -292,7 +309,7 @@
             </ul>
           </div>
 
-          <div class="[ card ]">
+          <div class="[ card animate ]">
             <h3>Collaboration</h3>
             <ul class="[ card__text-content card-list ]">
               <li class="card-list__item">Git, GitHub, Bitbucket</li>

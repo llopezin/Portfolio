@@ -53,6 +53,13 @@
   text-align: end;
 }
 
+.card__image-and-description {
+  display: grid;
+  grid-template-columns: 45% auto;
+  gap: 20px;
+  align-items: center;
+}
+
 .card.animate {
   opacity: 0;
 }

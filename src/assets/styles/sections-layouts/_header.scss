@@ -1,6 +1,7 @@
 header {
   display: grid;
   align-items: center;
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -26,11 +27,6 @@ header {
 }
 
 @media (min-width: $big-min) {
-  header {
-    height: 50vh;
-    box-shadow: 0 4px 3px -1px $shadow-color;
-  }
-
   .header__icon-navigation {
     display: none;
   }

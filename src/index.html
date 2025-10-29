@@ -16,7 +16,7 @@
 
 <body>
 
-  <header class="[ section--primary ]">
+  <header class="[ header section--primary ]" data-section-bg="primary">
 
     <div class="[ section-wrap ]">
       <nav class=" [ header__icon-navigation ]">
@@ -42,7 +42,7 @@
         <div class="[ header__presentation ]">
 
           <h1 class="[ big-screen--main-heading ]">Laura Infantes</h1>
-          <span class="[ sub-heading  big-screen--sub-heading ] [ single-line ]">Front End Developer @HYD</span>
+          <span class="[ sub-heading  big-screen--sub-heading ] [ single-line ]">Front End Developer @Kenmei.ai</span>
 
           <nav class=" [ header__icon-navigation--big-screen-only ]">
             <ul class="[ navigation-list ]">
@@ -85,74 +85,116 @@
 
   <main>
 
-    <section>
+    <section class="[ section--neutral ]" data-section-bg="neutral">
       <div class="[ section-wrap ]">
         <div class="[ section-scroll-anchor ]" id="aboutme"></div>
         <h2 class="[ header-highlighted header-highlighted--secondary ]">About me</h2>
         <div class="[ section-content ]">
 
-          <p class="[ section-content__paragraph animate ]"><span class="[ text-highlight text-highlight--primary ]">I
-              am a
-              Front End developer at HYD,</span> a digital agency based in London. Here I build the front end to all
-            sorts of web
-            applications using Next.js and React, and I connect them to diverse backends stacks which vary from project
-            to project. </p>
-
           <p class="[ section-content__paragraph animate ]">
-            My <span class="[ text-highlight text-highlight--primary ]"></span>full-stack development master's
-            program</span> at UOC involved becoming proficient in AngularJS for the front
-            end as well as different backend solutions, from CMS to PHP and Node.js based frameworks.
+            I’m currently a <span class="[ text-highlight text-highlight--primary ]">Front End Developer at
+              Kenmei,</span> where I build and maintain Adele, and enterprise-level, data-dense React application.
+            I am in addition growing into an Analyst role, refining, planning and estimating tasks for my squad.
           </p>
 
           <p class="[ section-content__paragraph animate ]">
-            While working on my masters I started my career in <span
-              class="[ text-highlight text-highlight--primary ]">conversion rate optimization (CRO) development</span>.
-            This role provided me with a unique
-            opportunity to work closely with browser API's, learn to write clean, self-documented code, as well as the
-            optimization of site speed, which I audited for some of our clients.
+            Before that, I worked at <span class="[ text-highlight text-highlight--primary ]">HYD, a digital
+              agency based in London</span> , where I built all sorts of web applications using Next.js and React,
+            connecting
+            them to diverse backend stacks that varied from project to project. My time there taught me to move
+            comfortably between different architectures, <span class="[ text-highlight text-highlight--primary ]">
+              from SSG and SSR setups to fully dynamic SPAs</span>, always keeping performance and accessibility in
+            mind.
           </p>
 
-          <p class="[ section-content__paragraph animate ]"><span
-              class="[ text-highlight text-highlight--primary ]">Accessibility</span> has been a passion since I started
-            coding.
-            I enjoy staying
-            updated on the latest conventions, researching and implementing them in my day to day work.
+          <p class="[ section-content__paragraph animate ]">
+            My journey started in Front End Conversion Rate Optimization(CRO) development, a role that got me close to
+            browser
+            APIs and introduced me to <span class="[ text-highlight text-highlight--primary ]">Performance Optimisation
+              and Accessibility</span>,
+            delivering google CWV audits and coding A/B tests for UK based and International clients.
           </p>
 
-          <p class="[ section-content__paragraph animate ]">What I love the most about being a developer is the fact
-            that there
-            is always a new challenge around the corner, always something new to learn, and a big community of equially
-            enthusiastic people to share your learning experience with.</p>
-          <p class="[ section-content__paragraph animate ]">On my free time I like to relax listening to music, playing
-            bass
-            guitar,
-            and climbing in the bouldering gym.</p>
+          <p class="[ section-content__paragraph animate ]">
+            When I’m not coding I enjoy going on adventures with my dogs, or climbing at the bouldering gym.
+          </p>
+
         </div>
       </div>
     </section>
 
 
-    <section class="[ section--secondary ]">
+    <section class="[ section--secondary ]" data-section-bg="secondary">
       <div class="[ section-wrap ]">
         <div class="[ section-scroll-anchor ]" id="projects"></div>
         <h2 class="[ header-highlighted header-highlighted--primary ]">Projects</h2>
         <div class="[ section-content ]">
 
           <div class="[ card animate ]">
-            <h3>Bucle.app, a UX tooling platform</h3>
-            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">Angular | Nest.js | MongoDB |
-                Chart.js | TailwindCSS
+            <h3>Adele, kenmei's data visualization tool</h3>
+            <div class="[ card__text-content ]">
+              <span class="[ card__text-sprite ]">React | Zustand | Jest | eCharts |
+                Sass
               </span>
-              <p>A platform to help UX researchers: it allows to create surveis, tree tests and card sorts. In addition,
-                generates links to share with participants, collects their answers and allows for the researcher to
-                visualize the data on complex charts and tables.
-              </p>
+              <div class="[ card__image-and-description ]">
+                <div>
+                  <img src="assets/images/adele.png" alt="Adele application screenshot">
+                </div>
+                <p>Adele is an analysis tool used by telco engenieers. Widgets and maps on four different dashboards can
+                  be individually customized, rearranged, resized. They display complex data visualizations using
+                  eCharts. The app handles large global states on filters and user configuration using Zustand and
+                  contexts.
+                </p>
+              </div>
             </div>
             <div class="[ card__actions ]">
-              <a class="[ link--secondary ]" href="hhttps://github.com/llopezin/ux-tooling-app-api">View API code
-                <span class="[ sr-only ]">View Bucle.app api's code</span></a>
-              <a class="[ btn btn--primary ]" href="https://github.com/llopezin/ux-tooling-app">View FE code <span
-                  class="[ sr-only ]">View Bucle.app app's code</span></a>
+              <a class="[ btn btn--primary ]" href="https://www.kenmei.ai/solutions/ai-products/anomalies">Learn More
+                <span class="[ sr-only ]">Learn more about Adele</span></a>
+            </div>
+          </div>
+
+          <div class="[ card animate ]">
+            <h3>Tradu, landing for a Trading company</h3>
+            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">Next.js | css modules | Sass
+              </span>
+              <div class="[ card__image-and-description ]">
+                <div>
+                  <img src="assets/images/tradu.png" alt="Tradu site screenshot">
+                </div>
+                <p>A beautifully designed site for which I worked as single Front End Developer at HYD agency. I proudly
+                  developed
+                  a design system and fully responsive and reusable component library that served as the base for this
+                  site on Next.js.
+                  This customizable components were used by our client via gutemberg blocks on wordpress to create all
+                  pages and content
+                  on the site.
+                </p>
+              </div>
+            </div>
+            <div class="[ card__actions ]">
+              <a class="[ btn btn--primary ]" href="https://www.tradu.com">Visit site <span class="[ sr-only ]">Visit
+                  tradu.com</span></a>
+            </div>
+          </div>
+
+          <div class="[ card animate ]">
+            <h3>Everfox, a cybersecurity services site</h3>
+            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">Next.js | SSR | Zustand |
+                Sass</span>
+              <div class="[ card__image-and-description ]">
+                <div>
+                  <img src="assets/images/everfox.png" alt="Everfox site screenshot">
+                </div>
+                <p>Everfox is a cybersecurity, data and network company. Built on Next.js, contains a custom large scale
+                  component library crafted to
+                  match the brand's identity, with subtle, elegant animations building a dynamic and visually appealling
+                  site.
+                </p>
+              </div>
+            </div>
+            <div class="[ card__actions ]">
+              <a class="[ btn btn--primary ]" href="https://www.tradu.com">Visit site <span class="[ sr-only ]">Visit
+                  tradu.com</span></a>
             </div>
           </div>
 
@@ -179,7 +221,9 @@
           <div class="[ card animate ]">
             <h3>Espacios de vida</h3>
             <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">React | Gatsby | Netlify</span>
-              <p>I built this site for Natalia Ferrus, an atypical real estate agent who helps people find their dream
+              <p>I designed and built this site for Natalia Ferrus, an atypical real estate agent who helps people
+                find
+                their dream
                 homes in Spain. This static site is built on Gatsby</p>
             </div>
             <div class="[ card__actions ]">
@@ -190,8 +234,9 @@
 
           <div class="[ card animate ]">
             <h3>Exchange.ly</h3>
-            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">Angular | Redux | API</span>
-              <p>This app allows users to filter and compare the latests currency rates as well as visualizing historic
+            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">Angular | Redux | Chart.js</span>
+              <p>This app allows users to filter and compare the latests currency rates as well as visualizing
+                historic
                 rates data
                 fetched form exchangeratesapi.io through complex charts built using chart.js</p>
             </div>
@@ -201,53 +246,33 @@
             </div>
           </div>
 
-          <div class="[ card animate ]">
-            <h3>Fest-a-casa</h3>
-            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">HTML | SASS | Bootstrap</span>
-              <p>One of the things I have missed the most during lockdown is live music. I have built this streaming
-                music festival site as a way to up my bootstrap skills, as well as to help me bring back that first line
-                at a local band's gig feeling.</p>
-            </div>
-            <div class="[ card__actions ]">
-              <a class="[ btn btn--primary ]" href="https://github.com/llopezin/music-festival-site">View code <span
-                  class="[ sr-only ]">for fest-a-casa's
-                  site</span></a>
-            </div>
-          </div>
-
-          <div class="[ card animate ]">
-            <h3>Laravel Articles API</h3>
-            <div class="[ card__text-content ]"><span class="[ card__text-sprite ]">PHP | Laravel | API</span>
-              <p>A REST public API built on Laravel, using Laravel's Factoties to populate and SQL database, it allows
-                to create, read, update and delete data on it.
-              </p>
-            </div>
-            <div class="[ card__actions ]">
-              <a class="[ btn btn--primary ]" href="https://github.com/llopezin/laravel-news-API">View code <span
-                  class="[ sr-only ]">for laravel articles API
-                  project</span></a>
-            </div>
-          </div>
-
-
-
         </div>
       </div>
 
     </section>
 
 
-    <section>
+    <section class="[ section--neutral ]" data-section-bg="neutral">
       <div class="[ section-wrap ]">
         <div class="[ section-scroll-anchor ]" id="experience"></div>
         <h2 class="[ header-highlighted header-highlighted--secondary ]">Experience</h2>
         <div class="[ section-content ] [ experience__time-line animate ]">
 
+          <div class="[ experience-item animate ]">
+            <h3 class="[ experience-item__header ]">Kenmei - Adele</h3> <span
+              class="[ experience-item__subheader ]">Front End Developer</span> <span
+              class="[ experience-item__dates ]">Oct 2024 - Present</span>
+            <p class="[ section-content__paragraph ]"> Developing features for a data-dense enterprise React application
+              and translating high-level specifications into actionable tasks. Refactoring legacy codebases to reduce
+              technical debt while leading the build of a DDD-based fetching system using services, hooks, and Zustand.
+              Improving maintainability through a design system refactor, TypeScript migration, and TDD with Jest. </p>
+          </div>
+
 
           <div class="[ experience-item animate ]">
             <h3 class="[ experience-item__header ]">HYD agency</h3>
             <span class="[ experience-item__subheader ]">Front End Developer</span>
-            <span class="[ experience-item__dates ]">May 2021 - Present</span>
+            <span class="[ experience-item__dates ]">May 2021 - Oct 2024</span>
             <p class="[ section-content__paragraph ]">
               Creating responsive, wcag compliant and cross-browser compatible web applications using React and Next.js.
               Building scalable services to consume data form REST and GraphQL APIs by implementing effective state
@@ -263,8 +288,7 @@
 
           <div class="[ experience-item animate ]">
             <h3 class="[ experience-item__header ]">Dentsu Intenational</h3>
-            <span class="[ experience-item__subheader ]">CRO Front End Developer
-              Assistant</span>
+            <span class="[ experience-item__subheader ]">CRO Front End Developer</span>
             <span class="[ experience-item__dates ]">April 2020 - May 2021</span>
             <p class="[ section-content__paragraph ]">
               Conducting A/B and multivariate test for a range of UK and International clients, using platforms such as
@@ -281,7 +305,7 @@
     </section>
 
 
-    <section class="[ section--secondary ]">
+    <section class="[ section--secondary ]" data-section-bg="secondary">
       <div class="[ section-wrap ]">
         <div class="[ section-scroll-anchor ]" id="skills"></div>
         <h2 class="[ header-highlighted header-highlighted--primary ]">skills</h2>
@@ -325,7 +349,7 @@
   </main>
 
 
-  <footer class="[ section--primary ]">
+  <footer class="[ footer ]">
     <div class="[ section-wrap ]">
       <h2>Find me on</h2>
 
@@ -349,6 +373,7 @@
 
   </footer>
 
+  <div class="[ background ]" aria-hidden="true"></div>
 </body>
 
 </html>
